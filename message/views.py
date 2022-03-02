@@ -39,7 +39,7 @@ def message(request):
     else:
         if msg.lower() == 'hi':
             intro_msg = f"Hello there {sender_name}! 😊\n" \
-                f"Don't forget to activate the bot first by sending 'join skill-harder' " \
+                f"Don't forget to activate the bot first by sending '<your sandbox keyword>' " \
                 f"keyword in case you haven't done it yet."
             send_message(intro_msg, sender_number)
 
