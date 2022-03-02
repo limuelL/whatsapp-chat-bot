@@ -10,7 +10,7 @@ This uses googletrans python module to translate languages and Coingecko api to 
 
 ## Quick Guide
 1. Create a [twilio](https://www.twilio.com/) account and acquire a whatsapp number, SID and Auth Token.<br/>
-2. Go to `message/views` and update your whatsapp number in the `send_message function".
+2. Go to `message/views` and update your whatsapp number in the `send_message function`".
 3. Create a heroku app and add your SID, Auth token and Django SECRET KEY in configuration variables.<br>
 4. Copy your heroku app url and go to your Twilio account, then replace the webhook url in the Whatsapp Sandox Settings.<br/><br/>
 
